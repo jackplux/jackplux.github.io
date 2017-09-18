@@ -1,0 +1,52 @@
+<script type="text/javascript">
+    function Gsitesearch(curobj) {
+        var domainroot = curobj.domainroot[curobj.domainroot.selectedIndex].value
+        curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value
+    }
+</script>
+<footer class="site-footer">
+    
+    <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+            {% if site.email %}
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+            <form action="https://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" _lpchecked="1">
+                Search :
+                <span class="search">
+                    <input name="q" type="hidden" class="texta">
+                    <input name="qfront" type="text" style="width: 100px; text-size: 12px; height: 14px;"> 
+                </span>
+            </form>
+        </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+            {% if site.github_username %}
+            <li>
+            {% include icon-github.html username=site.github_username %}
+            </li>
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+        </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+        </div>
+    </div>
+
+    </div>
+    
+</footer>
+    
