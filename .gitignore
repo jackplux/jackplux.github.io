@@ -1,7 +1,9 @@
 
 # Jekyll
+_site/
 .sass-cache
 .jekyll-metadata
+
 
 # macOS
 # General
