@@ -17,7 +17,7 @@ title: ludovicl.fr
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   Ma curation webistique, du dev, des technos, du développement personnel,...
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "ludovicl.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ludovicl
 github_username:  ludovicl
