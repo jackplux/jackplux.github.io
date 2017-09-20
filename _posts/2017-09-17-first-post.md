@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Il faut bien commencer"
+title: "Il faut bien commencer"
 ---
 
 Je n’ai jamais blogué mais je pense qu’il n’est jamais trop tard pour s’y mettre.
