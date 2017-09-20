@@ -33,6 +33,7 @@ permalink: /:year/:month/:title.html
 # Pagination Settings
 pagination:
   enabled: true
+  collection: 'posts'
   per_page: 5
   permalink: '/page/:num/'
   limit: 0
