@@ -27,18 +27,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
-permalink: /:year/:month/:title.html
+  - jekyll-paginate
+#permalink: /:year/:month/:title.html
 
 # Pagination Settings
-pagination:
-  enabled: true
-  collection: 'posts'
-  per_page: 5
-  permalink: '/page/:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 5
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
