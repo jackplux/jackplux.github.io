@@ -1,7 +1,8 @@
 <script type="text/javascript">
     function Gsitesearch(curobj) {
-        // var domainroot = curobj.domainroot[curobj.domainroot.selectedIndex].value
-        curobj.q.value = "site:ludovicl.fr " + curobj.qfront.value
+        var domainroot = curobj.domainroot[curobj.domainroot.selectedIndex].value
+        console.log(domainroot);
+        curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value
     }
 </script>
 <footer class="site-footer">
@@ -10,10 +11,7 @@
 
     <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-            {% if site.email %}
-                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+           
             <form action="https://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" _lpchecked="1">
                 Search :
                 <span class="search">
@@ -21,7 +19,6 @@
                     <input name="qfront" type="text" style="width: 100px; text-size: 12px; height: 14px;"> 
                 </span>
             </form>
-        </ul>
         </div>
 
         <div class="footer-col footer-col-2">
@@ -35,6 +32,19 @@
             {% if site.twitter_username %}
             <li>
             {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+            
+            {% if site.email %}
+            <li>
+                <a href="mailto:{{ site.email }}">
+                <span class="icon">
+                    {% include svg-icons/email.html %} 
+                </span>
+                <span class="username">
+                    contact
+                </span>
+                </a>
             </li>
             {% endif %}
         </ul>
