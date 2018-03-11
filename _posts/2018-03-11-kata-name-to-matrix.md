@@ -51,4 +51,4 @@ If integer is greater than the length of str, returns a new String of length int
 "hello".ljust(20, '1234')   #=> "hello123412341234123"
 ~~~
 
-J'aurais bien aimé la connaitre avant de débuter le Kata ;)
+J'aurais bien aimé la connaitre avant de débuter le Kata 😉
