@@ -46,7 +46,6 @@ Ce n'est pas la solution la plus explicite, mais elle tient en ligne et est él�
 Et cela m'a permis de découvrir la foncion `ljust`:
 
 If integer is greater than the length of str, returns a new String of length integer with str left justified and padded with padstr; otherwise, returns str.
-
 ~~~
 "hello".ljust(20)           #=> "hello               "
 "hello".ljust(20, '1234')   #=> "hello123412341234123"
