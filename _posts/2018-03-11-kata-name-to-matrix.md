@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: kata-name-to-matrix
+title: Le kata Name-to-Matrix de Codewars
 tags:
   - ruby
   - kata
