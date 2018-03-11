@@ -1,11 +1,12 @@
 ---
 layout: page
 title: À propos
-subtitle: ""
+subtitle: "Software engineer | Back-end | Ruby On Rails"
+css: "/css/aboutme.css"
 ---
 
 <span class="fa fa-briefcase about-icon"></span>
-Actuellement développeur backend chez [Anatec/WeSave](https://wesave.fr), mon travail consiste au développement de fonctionnalités en Ruby on Rails 4 et 5 et à l'intégration d’API REST et SOAP. Je vais aussi de l'ops avec Ansible, Heroku.
+Actuellement développeur backend chez [Anatec/WeSave](https://wesave.fr), mon travail consiste au développement de fonctionnalités en Ruby on Rails 4 et 5 et à l'intégration d’API REST et SOAP. Je fais aussi de l'ops avec Ansible, Heroku.
 
 <span class="fa fa-graduation-cap about-icon"></span>
 Diplômé de l'UTBM (Université de Belfort Montbéliard) en 2015 en tant que ingénieur logiciel, j'ai effectué mon stage de fin d'études à Paris et j'y suis resté.

@@ -24,6 +24,7 @@ description: Ma curation webistique, du dev, des technos, du développement pers
 # List of links in the navigation bar
 navbar-links:
   Blog: ""
+  Veille: "veille" 
   À propos: "aboutme"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
