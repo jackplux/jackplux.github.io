@@ -229,6 +229,18 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Ruby"
+              value: "ruby"
+            - name: "Kata"
+              value: "kata"
+            - name: "News"
+              value: "news"
 
 plugins:
   - jekyll-paginate
