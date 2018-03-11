@@ -21,7 +21,9 @@ Example: "Frank" ==> [["F", "r", "a"], ["n", "k", "."], [".", ".", "."]]
 **Warning:** Si vous voulez faire le kata, ne lisez pas la suite 
 
 ### Ma solution
+
 Avec `x` le string à convertir en matrice,  ma solution est la suivante :
+
 ~~~ruby
 def matrixfy(x)
   return "name must be at least one letter" if x.length == 0
@@ -36,6 +38,8 @@ end
 Le dernier map est un peu trop verbeux à mon gout et l'instruction `uncompleted_matrix << [] if uncompleted_matrix.length != matrix_size` devrait pouvoir se faire en même temps qu'une autre opération.
 
 ### La solution "best practices" la plus upvote
+
+Elle tient en une ligne:
 
 ~~~ruby
 x.empty? ? "name must be at least one letter" : x.ljust((x.length ** 0.5).ceil ** 2, '.').each_char.each_slice((x.length ** 0.5).ceil).to_a 
