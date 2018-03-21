@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Recherche"
+css: "/css/search.css"
 ---
 Faire une recherche sur ludovicl.fr : 
 
