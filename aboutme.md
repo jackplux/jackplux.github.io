@@ -1,6 +1,6 @@
 ---
 layout: page
-title: À propos
+title: Ludovic Lardies
 subtitle: "Software engineer | Back-end | Ruby On Rails"
 css: "/css/aboutme.css"
 ---
@@ -12,13 +12,15 @@ Actuellement développeur backend chez [Anatec/WeSave](https://wesave.fr), mon t
 Diplômé de l'UTBM (Université de Belfort Montbéliard) en 2015 en tant que ingénieur logiciel, j'ai effectué mon stage de fin d'études à Paris et j'y suis resté.
 
 <span class="fa fa-code about-icon"></span>
-Passionné par le developement et les nouvelles téchnologies depuis de nombreuse années. Je fais chaque jour de la veille et j'aime passer le temps dans les transports en lisant des livres de programmation.
+Passionné par le développement et les nouvelles technologie depuis de nombreuse années. Je fais chaque jour de la veille et j'aime passer le temps dans les transports en lisant des livres de programmation.
+
+<span class="fa fa-meetup about-icon"></span>
+Je participe à quelques Meetups Parisiens. Vous pouvez me retrouver dans les Meetups [Paris.rb](https://www.meetup.com/fr-FR/parisrb/), [Software Crafters Paris](https://www.meetup.com/fr-FR/paris-software-craftsmanship/), [Microservices Paris](https://www.meetup.com/fr-FR/Microservices-Paris/)
 
 <span class="fa fa-heart about-icon"></span>
-Je vais régulièrement au cinéma, j'aime lire un peu de tout et je participe régulièrement à des meetups sur le développement.
+Je vais régulièrement au cinéma, j'aime lire des romans, BD/comics, biographies. Je suis curieux et plutôt ouvert d'esprit.
 
 <a class="btn btn-primary btn-lg" href="/img/Ludovic-Lardies-CV.pdf" role="button">Télécharger mon CV </a>
-
 
 ### Me contacter :
 <form action="https://formspree.io/ludoviclrds+contact@gmail.com" method="POST">
@@ -29,5 +31,4 @@ Je vais régulièrement au cinéma, j'aime lire un peu de tout et je participe r
         <textarea name="message" class="form-control" placeholder="Votre message"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Envoyer</button>
-
 </form>

@@ -26,6 +26,8 @@ navbar-links:
   Blog: ""
   Veille: "veille" 
   À propos: "aboutme"
+nav-search: "search"
+
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
@@ -78,7 +80,7 @@ social-network-links:
 #  facebook: yourname
   github: ludovicl
   twitter: ludovicl
-  reddit: leyhu
+# reddit: leyhu
 #  google-plus: +yourname
   linkedin: lardies
 #  xing: yourname
