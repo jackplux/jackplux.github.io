@@ -20,7 +20,7 @@ Je participe à quelques Meetups Parisiens. Vous pouvez me retrouver dans les Me
 <span class="fa fa-heart about-icon"></span>
 Je vais régulièrement au cinéma, j'aime lire des romans, BD/comics, biographies. Je suis curieux et plutôt ouvert d'esprit.
 
-<a class="btn btn-primary btn-lg" href="/img/Ludovic-Lardies-CV.pdf" role="button">Télécharger mon CV </a>
+<a class="btn btn-primary btn-lg" href="/img/CV_Ludovic-Lardies.pdf" role="button">Télécharger mon CV </a>
 
 ### Me contacter :
 <form action="https://formspree.io/ludoviclrds+contact@gmail.com" method="POST">
