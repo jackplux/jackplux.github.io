@@ -14,16 +14,16 @@ url: "/"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Ludovic L
+title: Jackplux blog
 
 # Short description of your site
-description: Ma curation webistique, du dev, des technos, du développement personnel,...
+description: Ma curiosité m'appelle à creer ce blog pou tester un outil.
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: ""
+  Blog: "jackplux"
   Veille: "veille" 
   À propos: "aboutme"
 nav-search: "search"
@@ -68,7 +68,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Ludovic Lardies
+  name: Jack Paloque-berges
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -76,13 +76,13 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "ludoviclrds@gmail.com"
+  email: "paloque.jack@gmail.com"
 #  facebook: yourname
-  github: ludovicl
-  twitter: ludovicl
+  github: jackplux
+#  twitter: 
 # reddit: leyhu
 #  google-plus: +yourname
-  linkedin: lardies
+#  linkedin: 
 #  xing: yourname
 #  stackoverflow: "3943160/yourname"
 #  snapchat: yourname
@@ -103,7 +103,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "ludovicl.fr"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "jackplux.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
