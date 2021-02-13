@@ -8,7 +8,22 @@ tags:
 ---
 Ils sont du mec qui a inventé ce blog (ce qui m'a permis de le mettre en oeuvre) et je vais les mettre à jour dans quelques jours, dans quelques semaines, ou peut-être jamais allez savoir.
 
-## Le kata name to matrix
+## En fait, de quoi s'agit-il ?
+
+Prolixe publicateur de pages internet, je m'intéresse beaucoup aux CMS (Content Managment Systems) et mon vice premier est de tester les outils de publication de contenu web au point que certains me qualifient de serial testeur. LOL !
+Cest comme cela que je suis tombé sur la page https://beautifuljekyll.com d'un certain Dean Attali qui propose un constructeur de site de son invention que je suis en train de tester.
+
+Il y raconte que son site Web est alimenté par GitHub Pages / Jekyll et peut être créé gratuitement en moins de 5 minutes . Au sens propre mais ça reste à prouver. Cela fait au moins deux heures que j'ai commencé cette page. ;)
+
+Bon, je n'ai pas encore tout compris, son truc ne fonctionne apparement qu'avec les outils Github (tout le monde ne sait pas s'en servir, je ne trouve pour le moment cela pas trés pratique, mais c'est sympa et donne une belle occasion d'apprendre quelque chose.
+
+Demain, en principe, je vous raconterai comment ça fonctionne et publierai mon avis sur les avanages et les inconvénients.
+
+En attendant, les textes qui suivent sont ceux de son blog que j'ai cloné mais que je garde pour le moment pour étudier le fonctionnement de son machin.
+
+A suivre soon. :-)
+
+**Textes d'origine**
 
 Lien du kata : https://www.codewars.com/kata/5a91e0793e9156ccb0003f6e
 
