@@ -1,12 +1,12 @@
 ---
 layout: post
 published: true
-title: Le kata Name-to-Matrix de Codewars
+title: Ne lisez pas encore ces textes
 tags:
-  - ruby
+  - textes
   - kata
 ---
-J'aime bien faire des katas de programmation pour m'entrainer, j'utilise le site [Codewars](https://www.codewars.com) qui va à l'essentiel et propose de nombreux entrainements.
+Ils sont du mec qui a inventé ce blog (ce qui m'a permis de le mettre en oeuvre) et je vais les mettre à jour dans quelques jours, dans quelques semaines, ou peut-être jamais allez savoir.
 
 ## Le kata name to matrix
 
